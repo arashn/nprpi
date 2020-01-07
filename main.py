@@ -118,8 +118,9 @@ def play_pause(recommendations, instance):
 
 
 def stop(recommendations):
-    global sleep_timer_set
+    global sleep_timer_set, sleep_time
     sleep_timer_set = False
+    sleep_time = 0
     if sleep_timer is not None:
         sleep_timer.cancel()
 
