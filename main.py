@@ -8,6 +8,9 @@ import sys
 import termios
 import tty
 
+# TODO: Display message on LCD (update one line, or both lines)
+
+
 logger = logging.Logger('nprpi')
 
 state = 'PLAYER_STOPPED'
@@ -90,7 +93,7 @@ def on_stop(event):
 def play_next(recommendations, instance):
     global player
     item = recommendations.get_next_item()
-    logger.debug('Now Playing:', item.data['attributes']['title'])
+    print('Now Playing:', item.data['attributes']['title'])
     player = instance.media_player_new()
     em = player.event_manager()
     em.event_attach(EventType.MediaPlayerEndReached, on_end, recommendations, item, instance)
