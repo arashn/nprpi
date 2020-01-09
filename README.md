@@ -29,6 +29,7 @@ Once you have logged in and authorized your Raspberry Pi, you can use the button
 The following features are planned for future releases:
 * Controlling the radio through a mobile app
 * Setting alarms (through a mobile app)
+* Adding other radio stations and channels
 
 ## Contributions
 If you have any suggestions for new features that you would like to see, feel free to open an issue.
