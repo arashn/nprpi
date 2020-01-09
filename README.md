@@ -16,6 +16,7 @@ You will need to have Python 3 and VLC Media Player installed on your system.
 
 In addition, you will need to have the following Python packages installed
 * python-vlc
+* requests
 
 I recommended that you use a Python virtual environment (e.g. virtualenv or pyenv) to set up the necessary Python version and dependencies.
 
@@ -23,6 +24,11 @@ I recommended that you use a Python virtual environment (e.g. virtualenv or pyen
 To run the app, simply run `python main.py`. You should see a a URL and a code display on the Raspberry Pi display. You will need to go to this URL on another device and enter the code to authorize your Raspberry Pi device.
 
 Once you have logged in and authorized your Raspberry Pi, you can use the buttons on the Raspberry Pi to play, pause, and stop, as well as to set the sleep timer.
+
+## Roadmap
+The following features are planned for future releases:
+* Controlling the radio through a mobile app
+* Setting alarms (through a mobile app)
 
 ## Contributions
 If you have any suggestions for new features that you would like to see, feel free to open an issue.
