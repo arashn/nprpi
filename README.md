@@ -2,7 +2,9 @@
 NPR One radio alarm clock on the Raspberry Pi
 
 ## Introduction
-This is a radio alarm clcok application for the Raspberry Pi, which currently supports NPR One. It currently has a sleep timer feature
+This is a radio alarm clcok application for the Raspberry Pi, which currently supports NPR One. It currently has a sleep timer feature.
+
+I created this project because I frequently listen to NPR. In particular, I like to listen to radio at bedtime. Until now, in order to listen to NPR at bedtime, I had to use the NPR One app on my phone, but I didn't like having to look at a bright screen in a dark room while I fumbled with the media controls on the NPR One mobile app, as this would blind my eyes and disrupt my sleep. I just wanted to be able to have NPR start playing and a sleep timer set with the push of a button, without having to look at a screen. And if I wanted to look at the screen, I could see everything at a glance on a simple monochrome LCD screen. That's why I decided to create a simple NPR One radio app for the Raspberry Pi. Currently it has minimal controls (play, pause, resume, stop, set/unset timer), but the simplicity and ease-of-use are very useful at nighttime, before sleeping, which is my main use for this app.
 
 ## Getting Started
 To get started using this application, you will need an NPR One account. If you don't have one already, you can create one [here](https://dev.npr.org/user/login).
